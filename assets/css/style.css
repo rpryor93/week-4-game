@@ -9,6 +9,10 @@ h1 {color: darkgray;
     font-size: 40px;
     float: right;
     margin: 0px;
+    text-shadow: -1px -1px 0 #FFFFFF,
+                    1px -1px 0 #0000FF,
+                    -1px 1px 0 #0000FF,
+                    1px 1px 0 #0000FF;  
 
     
 }
@@ -17,8 +21,8 @@ img {
    width: 90%;    
     height: 75%;
     position: relative; 
-    right: 12px; 
-    top: 10px;}
+    right: 9%; 
+    top: 5%;}
 
 
 
@@ -34,17 +38,24 @@ ul {
     left: ;
     background-color: black;
     float: left;
-    margin-right: 2%;}
+    margin-right: 2%;
+    text-align: center}
 
 .characters {box-sizing: content-box;
              width: 100%;
              clear: both;}
 
-.staggingAreas {color: darkgray;
+.staggingAreas {color: darkgrey;
                 font-family: monospace;
                 font-size: 20px;
                 clear: both;
+                
                 }
+
+p {text-shadow: -1px -1px 0 #000,
+                    1px -1px 0 #000,
+                    -1px 1px 0 #000,
+                    1px 1px 0 #000;  }
 
 a {box-sizing: border-box;
    width: 20px;
@@ -64,6 +75,5 @@ a:hover {background-color: red;
 
 ul:hover {background-color: red;}
 
-#userCharacter {margin-top: 30%;}
+#userCharacter {margin-top: 25%;}
 
-#fightSection {margin-top: 30%;}
